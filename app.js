@@ -1,10 +1,10 @@
-const amount = 9;
+//Modules
 
-if (amount < 10){
-    console.log('small number');
-}
-else{
-    console.log('large number');
+const name = require('./4.names')
+const saHI = require('./5.utils')
+console.log(name)
 
-}
-console.log(`hey it's my first node app`);  
+
+saHI('susan')
+saHI(name.john)
+saHI(name.peter)

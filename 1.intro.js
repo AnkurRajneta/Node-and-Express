@@ -5,13 +5,12 @@
 //process     - ingo about env where the program is being executed
 
 // console.log(__dirname)
-// setInterval(() => {
+// setInterval(() => {   f 
 //     console.log('hello world')
 // },1000)
 
 //modules 
-const john = 'john'
-const peter = 'peter'
+   
 
 const sayHi = (name) => {
     console.log(`Hello there ${name}`)
